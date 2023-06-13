@@ -1,0 +1,752 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AUTOINSTALL	utils/general.py	/^AUTOINSTALL = str(os.getenv('YOLOv5_AUTOINSTALL', True)).lower() == 'true'  # global auto-install mode$/;"	v
+AconC	utils/activations.py	/^class AconC(nn.Module):$/;"	c
+AgnosticNMS	models/tf.py	/^class AgnosticNMS(keras.layers.Layer):$/;"	c
+Albumentations	utils/augmentations.py	/^class Albumentations:$/;"	c
+Annotator	utils/plots.py	/^class Annotator:$/;"	c
+AutoShape	models/common.py	/^class AutoShape(nn.Module):$/;"	c
+BAR_FORMAT	utils/dataloaders.py	/^BAR_FORMAT = '{l_bar}{bar:10}{r_bar}{bar:-10b}'  # tqdm bar format$/;"	v
+BCEBlurWithLogitsLoss	utils/loss.py	/^class BCEBlurWithLogitsLoss(nn.Module):$/;"	c
+Bottleneck	models/common.py	/^class Bottleneck(nn.Module):$/;"	c
+BottleneckCSP	models/common.py	/^class BottleneckCSP(nn.Module):$/;"	c
+C3	models/common.py	/^class C3(nn.Module):$/;"	c
+C3Ghost	models/common.py	/^class C3Ghost(C3):$/;"	c
+C3SPP	models/common.py	/^class C3SPP(C3):$/;"	c
+C3TR	models/common.py	/^class C3TR(C3):$/;"	c
+C3x	models/common.py	/^class C3x(C3):$/;"	c
+CONFIG_DIR	utils/general.py	/^CONFIG_DIR = user_config_dir()  # Ultralytics settings dir$/;"	v
+Callbacks	utils/callbacks.py	/^class Callbacks:$/;"	c
+Classify	models/common.py	/^class Classify(nn.Module):$/;"	c
+Colors	utils/plots.py	/^class Colors:$/;"	c
+ComputeLoss	utils/loss.py	/^class ComputeLoss:$/;"	c
+Concat	models/common.py	/^class Concat(nn.Module):$/;"	c
+ConfusionMatrix	utils/metrics.py	/^class ConfusionMatrix:$/;"	c
+Contract	models/common.py	/^class Contract(nn.Module):$/;"	c
+Conv	models/common.py	/^class Conv(nn.Module):$/;"	c
+CrossConv	models/common.py	/^class CrossConv(nn.Module):$/;"	c
+DATASETS_DIR	utils/general.py	/^DATASETS_DIR = ROOT.parent \/ 'datasets'  # YOLOv5 datasets directory$/;"	v
+DETECTION_URL	utils/flask_rest_api/example_request.py	/^DETECTION_URL = "http:\/\/localhost:5000\/v1\/object-detection\/yolov5s"$/;"	v
+DETECTION_URL	utils/flask_rest_api/restapi.py	/^DETECTION_URL = "\/v1\/object-detection\/yolov5s"$/;"	v
+DWConv	models/common.py	/^class DWConv(Conv):$/;"	c
+Detect	models/yolo.py	/^class Detect(nn.Module):$/;"	c
+DetectMultiBackend	models/common.py	/^class DetectMultiBackend(nn.Module):$/;"	c
+Detections	models/common.py	/^class Detections:$/;"	c
+EarlyStopping	utils/torch_utils.py	/^class EarlyStopping:$/;"	c
+Ensemble	models/experimental.py	/^class Ensemble(nn.ModuleList):$/;"	c
+Expand	models/common.py	/^class Expand(nn.Module):$/;"	c
+F	utils/activations.py	/^    class F(torch.autograd.Function):$/;"	c	class:MemoryEfficientMish
+FILE	detect.py	/^FILE = Path(__file__).resolve()$/;"	v
+FILE	export.py	/^FILE = Path(__file__).resolve()$/;"	v
+FILE	models/tf.py	/^FILE = Path(__file__).resolve()$/;"	v
+FILE	models/yolo.py	/^FILE = Path(__file__).resolve()$/;"	v
+FILE	train.py	/^FILE = Path(__file__).resolve()$/;"	v
+FILE	utils/aws/resume.py	/^FILE = Path(__file__).resolve()$/;"	v
+FILE	utils/benchmarks.py	/^FILE = Path(__file__).resolve()$/;"	v
+FILE	utils/general.py	/^FILE = Path(__file__).resolve()$/;"	v
+FILE	utils/loggers/wandb/sweep.py	/^FILE = Path(__file__).resolve()$/;"	v
+FILE	utils/loggers/wandb/wandb_utils.py	/^FILE = Path(__file__).resolve()$/;"	v
+FILE	val.py	/^FILE = Path(__file__).resolve()$/;"	v
+FONT	utils/general.py	/^FONT = 'Arial.ttf'  # https:\/\/ultralytics.com\/assets\/Arial.ttf$/;"	v
+FReLU	utils/activations.py	/^class FReLU(nn.Module):$/;"	c
+FocalLoss	utils/loss.py	/^class FocalLoss(nn.Module):$/;"	c
+Focus	models/common.py	/^class Focus(nn.Module):$/;"	c
+GhostBottleneck	models/common.py	/^class GhostBottleneck(nn.Module):$/;"	c
+GhostConv	models/common.py	/^class GhostConv(nn.Module):$/;"	c
+HELP_URL	utils/dataloaders.py	/^HELP_URL = 'https:\/\/github.com\/ultralytics\/yolov5\/wiki\/Train-Custom-Data'$/;"	v
+Hardswish	utils/activations.py	/^class Hardswish(nn.Module):$/;"	c
+IMAGE	utils/flask_rest_api/example_request.py	/^IMAGE = "zidane.jpg"$/;"	v
+IMG_FORMATS	utils/dataloaders.py	/^IMG_FORMATS = 'bmp', 'dng', 'jpeg', 'jpg', 'mpo', 'png', 'tif', 'tiff', 'webp'  # include image suffixes$/;"	v
+InfiniteDataLoader	utils/dataloaders.py	/^class InfiniteDataLoader(dataloader.DataLoader):$/;"	c
+LOCAL_RANK	train.py	/^LOCAL_RANK = int(os.getenv('LOCAL_RANK', -1))  # https:\/\/pytorch.org\/docs\/stable\/elastic\/run.html$/;"	v
+LOCAL_RANK	utils/dataloaders.py	/^LOCAL_RANK = int(os.getenv('LOCAL_RANK', -1))  # https:\/\/pytorch.org\/docs\/stable\/elastic\/run.html$/;"	v
+LOGGER	utils/general.py	/^LOGGER = logging.getLogger("yolov5")  # define globally (used in train.py, val.py, detect.py, etc.)$/;"	v
+LOGGERS	utils/loggers/__init__.py	/^LOGGERS = ('csv', 'tb', 'wandb')  # text-file, TensorBoard, Weights & Biases$/;"	v
+LoadImages	utils/dataloaders.py	/^class LoadImages:$/;"	c
+LoadImagesAndLabels	utils/dataloaders.py	/^class LoadImagesAndLabels(Dataset):$/;"	c
+LoadStreams	utils/dataloaders.py	/^class LoadStreams:$/;"	c
+LoadWebcam	utils/dataloaders.py	/^class LoadWebcam:  # for inference$/;"	c
+Loggers	utils/loggers/__init__.py	/^class Loggers():$/;"	c
+MemoryEfficientMish	utils/activations.py	/^class MemoryEfficientMish(nn.Module):$/;"	c
+MetaAconC	utils/activations.py	/^class MetaAconC(nn.Module):$/;"	c
+Mish	utils/activations.py	/^class Mish(nn.Module):$/;"	c
+MixConv2d	models/experimental.py	/^class MixConv2d(nn.Module):$/;"	c
+Model	models/yolo.py	/^class Model(nn.Module):$/;"	c
+ModelEMA	utils/torch_utils.py	/^class ModelEMA:$/;"	c
+NCOLS	utils/general.py	/^NCOLS = 0 if is_docker() else shutil.get_terminal_size().columns  # terminal window size for tqdm$/;"	v
+NUM_THREADS	utils/general.py	/^NUM_THREADS = min(8, max(1, os.cpu_count() - 1))  # number of YOLOv5 multiprocessing threads$/;"	v
+PREFIX	utils/autoanchor.py	/^PREFIX = colorstr('AutoAnchor: ')$/;"	v
+Profile	utils/general.py	/^class Profile(contextlib.ContextDecorator):$/;"	c
+QFocalLoss	utils/loss.py	/^class QFocalLoss(nn.Module):$/;"	c
+RANK	train.py	/^RANK = int(os.getenv('RANK', -1))$/;"	v
+RANK	utils/loggers/__init__.py	/^RANK = int(os.getenv('RANK', -1))$/;"	v
+RANK	utils/loggers/wandb/wandb_utils.py	/^RANK = int(os.getenv('RANK', -1))$/;"	v
+RANK	utils/plots.py	/^RANK = int(os.getenv('RANK', -1))$/;"	v
+ROOT	detect.py	/^ROOT = FILE.parents[0]  # YOLOv5 root directory$/;"	v
+ROOT	detect.py	/^ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative$/;"	v
+ROOT	export.py	/^    ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative$/;"	v
+ROOT	export.py	/^ROOT = FILE.parents[0]  # YOLOv5 root directory$/;"	v
+ROOT	models/tf.py	/^ROOT = FILE.parents[1]  # YOLOv5 root directory$/;"	v
+ROOT	models/yolo.py	/^    ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative$/;"	v
+ROOT	models/yolo.py	/^ROOT = FILE.parents[1]  # YOLOv5 root directory$/;"	v
+ROOT	train.py	/^ROOT = FILE.parents[0]  # YOLOv5 root directory$/;"	v
+ROOT	train.py	/^ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative$/;"	v
+ROOT	utils/aws/resume.py	/^ROOT = FILE.parents[2]  # YOLOv5 root directory$/;"	v
+ROOT	utils/benchmarks.py	/^ROOT = FILE.parents[1]  # YOLOv5 root directory$/;"	v
+ROOT	utils/general.py	/^ROOT = FILE.parents[1]  # YOLOv5 root directory$/;"	v
+ROOT	utils/loggers/wandb/sweep.py	/^ROOT = FILE.parents[3]  # YOLOv5 root directory$/;"	v
+ROOT	utils/loggers/wandb/wandb_utils.py	/^ROOT = FILE.parents[3]  # YOLOv5 root directory$/;"	v
+ROOT	val.py	/^ROOT = FILE.parents[0]  # YOLOv5 root directory$/;"	v
+ROOT	val.py	/^ROOT = Path(os.path.relpath(ROOT, Path.cwd()))  # relative$/;"	v
+SPP	models/common.py	/^class SPP(nn.Module):$/;"	c
+SPPF	models/common.py	/^class SPPF(nn.Module):$/;"	c
+SiLU	utils/activations.py	/^class SiLU(nn.Module):$/;"	c
+Sum	models/experimental.py	/^class Sum(nn.Module):$/;"	c
+TFBN	models/tf.py	/^class TFBN(keras.layers.Layer):$/;"	c
+TFBottleneck	models/tf.py	/^class TFBottleneck(keras.layers.Layer):$/;"	c
+TFBottleneckCSP	models/tf.py	/^class TFBottleneckCSP(keras.layers.Layer):$/;"	c
+TFC3	models/tf.py	/^class TFC3(keras.layers.Layer):$/;"	c
+TFC3x	models/tf.py	/^class TFC3x(keras.layers.Layer):$/;"	c
+TFConcat	models/tf.py	/^class TFConcat(keras.layers.Layer):$/;"	c
+TFConv	models/tf.py	/^class TFConv(keras.layers.Layer):$/;"	c
+TFConv2d	models/tf.py	/^class TFConv2d(keras.layers.Layer):$/;"	c
+TFCrossConv	models/tf.py	/^class TFCrossConv(keras.layers.Layer):$/;"	c
+TFDWConv	models/tf.py	/^class TFDWConv(keras.layers.Layer):$/;"	c
+TFDetect	models/tf.py	/^class TFDetect(keras.layers.Layer):$/;"	c
+TFFocus	models/tf.py	/^class TFFocus(keras.layers.Layer):$/;"	c
+TFModel	models/tf.py	/^class TFModel:$/;"	c
+TFPad	models/tf.py	/^class TFPad(keras.layers.Layer):$/;"	c
+TFSPP	models/tf.py	/^class TFSPP(keras.layers.Layer):$/;"	c
+TFSPPF	models/tf.py	/^class TFSPPF(keras.layers.Layer):$/;"	c
+TFUpsample	models/tf.py	/^class TFUpsample(keras.layers.Layer):$/;"	c
+Timeout	utils/general.py	/^class Timeout(contextlib.ContextDecorator):$/;"	c
+TransformerBlock	models/common.py	/^class TransformerBlock(nn.Module):$/;"	c
+TransformerLayer	models/common.py	/^class TransformerLayer(nn.Module):$/;"	c
+VERBOSE	utils/general.py	/^VERBOSE = str(os.getenv('YOLOv5_VERBOSE', True)).lower() == 'true'  # global verbose mode$/;"	v
+VID_FORMATS	utils/dataloaders.py	/^VID_FORMATS = 'asf', 'avi', 'gif', 'm4v', 'mkv', 'mov', 'mp4', 'mpeg', 'mpg', 'ts', 'wmv'  # include video suffixes$/;"	v
+WANDB_ARTIFACT_PREFIX	utils/loggers/wandb/log_dataset.py	/^WANDB_ARTIFACT_PREFIX = 'wandb-artifact:\/\/'$/;"	v
+WANDB_ARTIFACT_PREFIX	utils/loggers/wandb/wandb_utils.py	/^WANDB_ARTIFACT_PREFIX = 'wandb-artifact:\/\/'$/;"	v
+WORLD_SIZE	train.py	/^WORLD_SIZE = int(os.getenv('WORLD_SIZE', 1))$/;"	v
+WandbLogger	utils/loggers/wandb/wandb_utils.py	/^class WandbLogger():$/;"	c
+WorkingDirectory	utils/general.py	/^class WorkingDirectory(contextlib.ContextDecorator):$/;"	c
+_	models/tf.py	/^    _ = model(im)  # inference$/;"	v
+_	models/tf.py	/^    _ = tf_model.predict(im)  # inference$/;"	v
+_	models/yolo.py	/^                _ = Model(cfg)$/;"	v
+_	models/yolo.py	/^        _ = model(im, profile=True)$/;"	v
+_RepeatSampler	utils/dataloaders.py	/^class _RepeatSampler:$/;"	c
+__call__	utils/augmentations.py	/^    def __call__(self, im, labels, p=1.0):$/;"	m	class:Albumentations	file:
+__call__	utils/loss.py	/^    def __call__(self, p, targets):  # predictions, targets$/;"	m	class:ComputeLoss	file:
+__call__	utils/plots.py	/^    def __call__(self, i, bgr=False):$/;"	m	class:Colors	file:
+__call__	utils/torch_utils.py	/^    def __call__(self, epoch, fitness):$/;"	m	class:EarlyStopping	file:
+__enter__	utils/general.py	/^    def __enter__(self):$/;"	m	class:Profile	file:
+__enter__	utils/general.py	/^    def __enter__(self):$/;"	m	class:Timeout	file:
+__enter__	utils/general.py	/^    def __enter__(self):$/;"	m	class:WorkingDirectory	file:
+__exit__	utils/general.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:Timeout	file:
+__exit__	utils/general.py	/^    def __exit__(self, exc_type, exc_val, exc_tb):$/;"	m	class:WorkingDirectory	file:
+__exit__	utils/general.py	/^    def __exit__(self, type, value, traceback):$/;"	m	class:Profile	file:
+__getitem__	utils/dataloaders.py	/^    def __getitem__(self, index):$/;"	m	class:LoadImagesAndLabels	file:
+__init__	models/common.py	/^    def __init__(self, c, num_heads):$/;"	m	class:TransformerLayer
+__init__	models/common.py	/^    def __init__(self, c1, c2, k=(5, 9, 13)):$/;"	m	class:SPP
+__init__	models/common.py	/^    def __init__(self, c1, c2, k=(5, 9, 13), n=1, shortcut=True, g=1, e=0.5):$/;"	m	class:C3SPP
+__init__	models/common.py	/^    def __init__(self, c1, c2, k=1, s=1, act=True):  # ch_in, ch_out, kernel, stride, padding, groups$/;"	m	class:DWConv
+__init__	models/common.py	/^    def __init__(self, c1, c2, k=1, s=1, g=1, act=True):  # ch_in, ch_out, kernel, stride, groups$/;"	m	class:GhostConv
+__init__	models/common.py	/^    def __init__(self, c1, c2, k=1, s=1, p=None, g=1):  # ch_in, ch_out, kernel, stride, padding, groups$/;"	m	class:Classify
+__init__	models/common.py	/^    def __init__(self, c1, c2, k=1, s=1, p=None, g=1, act=True):  # ch_in, ch_out, kernel, stride, padding, groups$/;"	m	class:Conv
+__init__	models/common.py	/^    def __init__(self, c1, c2, k=1, s=1, p=None, g=1, act=True):  # ch_in, ch_out, kernel, stride, padding, groups$/;"	m	class:Focus
+__init__	models/common.py	/^    def __init__(self, c1, c2, k=3, s=1):  # ch_in, ch_out, kernel, stride$/;"	m	class:GhostBottleneck
+__init__	models/common.py	/^    def __init__(self, c1, c2, k=3, s=1, g=1, e=1.0, shortcut=False):$/;"	m	class:CrossConv
+__init__	models/common.py	/^    def __init__(self, c1, c2, k=5):  # equivalent to SPP(k=(5, 9, 13))$/;"	m	class:SPPF
+__init__	models/common.py	/^    def __init__(self, c1, c2, n=1, shortcut=True, g=1, e=0.5):  # ch_in, ch_out, number, shortcut, groups, expansion$/;"	m	class:BottleneckCSP
+__init__	models/common.py	/^    def __init__(self, c1, c2, n=1, shortcut=True, g=1, e=0.5):  # ch_in, ch_out, number, shortcut, groups, expansion$/;"	m	class:C3
+__init__	models/common.py	/^    def __init__(self, c1, c2, n=1, shortcut=True, g=1, e=0.5):$/;"	m	class:C3Ghost
+__init__	models/common.py	/^    def __init__(self, c1, c2, n=1, shortcut=True, g=1, e=0.5):$/;"	m	class:C3TR
+__init__	models/common.py	/^    def __init__(self, c1, c2, n=1, shortcut=True, g=1, e=0.5):$/;"	m	class:C3x
+__init__	models/common.py	/^    def __init__(self, c1, c2, num_heads, num_layers):$/;"	m	class:TransformerBlock
+__init__	models/common.py	/^    def __init__(self, c1, c2, shortcut=True, g=1, e=0.5):  # ch_in, ch_out, shortcut, groups, expansion$/;"	m	class:Bottleneck
+__init__	models/common.py	/^    def __init__(self, dimension=1):$/;"	m	class:Concat
+__init__	models/common.py	/^    def __init__(self, gain=2):$/;"	m	class:Contract
+__init__	models/common.py	/^    def __init__(self, gain=2):$/;"	m	class:Expand
+__init__	models/common.py	/^    def __init__(self, imgs, pred, files, times=(0, 0, 0, 0), names=None, shape=None):$/;"	m	class:Detections
+__init__	models/common.py	/^    def __init__(self, model):$/;"	m	class:AutoShape
+__init__	models/common.py	/^    def __init__(self, weights='yolov5s.pt', device=torch.device('cpu'), dnn=False, data=None, fp16=False):$/;"	m	class:DetectMultiBackend
+__init__	models/experimental.py	/^    def __init__(self):$/;"	m	class:Ensemble
+__init__	models/experimental.py	/^    def __init__(self, c1, c2, k=(1, 3), s=1, equal_ch=True):  # ch_in, ch_out, kernel, stride, ch_strategy$/;"	m	class:MixConv2d
+__init__	models/experimental.py	/^    def __init__(self, n, weight=False):  # n: number of inputs$/;"	m	class:Sum
+__init__	models/tf.py	/^    def __init__(self, c1, c2, k, s=1, g=1, bias=True, w=None):$/;"	m	class:TFConv2d
+__init__	models/tf.py	/^    def __init__(self, c1, c2, k=(5, 9, 13), w=None):$/;"	m	class:TFSPP
+__init__	models/tf.py	/^    def __init__(self, c1, c2, k=1, s=1, p=None, act=True, w=None):$/;"	m	class:TFDWConv
+__init__	models/tf.py	/^    def __init__(self, c1, c2, k=1, s=1, p=None, g=1, act=True, w=None):$/;"	m	class:TFConv
+__init__	models/tf.py	/^    def __init__(self, c1, c2, k=1, s=1, p=None, g=1, act=True, w=None):$/;"	m	class:TFFocus
+__init__	models/tf.py	/^    def __init__(self, c1, c2, k=3, s=1, g=1, e=1.0, shortcut=False, w=None):$/;"	m	class:TFCrossConv
+__init__	models/tf.py	/^    def __init__(self, c1, c2, k=5, w=None):$/;"	m	class:TFSPPF
+__init__	models/tf.py	/^    def __init__(self, c1, c2, n=1, shortcut=True, g=1, e=0.5, w=None):$/;"	m	class:TFBottleneckCSP
+__init__	models/tf.py	/^    def __init__(self, c1, c2, n=1, shortcut=True, g=1, e=0.5, w=None):$/;"	m	class:TFC3
+__init__	models/tf.py	/^    def __init__(self, c1, c2, n=1, shortcut=True, g=1, e=0.5, w=None):$/;"	m	class:TFC3x
+__init__	models/tf.py	/^    def __init__(self, c1, c2, shortcut=True, g=1, e=0.5, w=None):  # ch_in, ch_out, shortcut, groups, expansion$/;"	m	class:TFBottleneck
+__init__	models/tf.py	/^    def __init__(self, cfg='yolov5s.yaml', ch=3, nc=None, model=None, imgsz=(640, 640)):  # model, channels, classes$/;"	m	class:TFModel
+__init__	models/tf.py	/^    def __init__(self, dimension=1, w=None):$/;"	m	class:TFConcat
+__init__	models/tf.py	/^    def __init__(self, nc=80, anchors=(), ch=(), imgsz=(640, 640), w=None):  # detection layer$/;"	m	class:TFDetect
+__init__	models/tf.py	/^    def __init__(self, pad):$/;"	m	class:TFPad
+__init__	models/tf.py	/^    def __init__(self, size, scale_factor, mode, w=None):  # warning: all arguments needed including 'w'$/;"	m	class:TFUpsample
+__init__	models/tf.py	/^    def __init__(self, w=None):$/;"	m	class:TFBN
+__init__	models/yolo.py	/^    def __init__(self, cfg='yolov5s.yaml', ch=3, nc=None, anchors=None):  # model, input channels, number of classes$/;"	m	class:Model
+__init__	models/yolo.py	/^    def __init__(self, nc=80, anchors=(), ch=(), inplace=True):  # detection layer$/;"	m	class:Detect
+__init__	utils/activations.py	/^    def __init__(self, c1):$/;"	m	class:AconC
+__init__	utils/activations.py	/^    def __init__(self, c1, k=1, s=1, r=16):  # ch_in, kernel, stride, r$/;"	m	class:MetaAconC
+__init__	utils/activations.py	/^    def __init__(self, c1, k=3):  # ch_in, kernel$/;"	m	class:FReLU
+__init__	utils/augmentations.py	/^    def __init__(self):$/;"	m	class:Albumentations
+__init__	utils/callbacks.py	/^    def __init__(self):$/;"	m	class:Callbacks
+__init__	utils/dataloaders.py	/^    def __init__(self, *args, **kwargs):$/;"	m	class:InfiniteDataLoader
+__init__	utils/dataloaders.py	/^    def __init__(self, path, img_size=640, stride=32, auto=True):$/;"	m	class:LoadImages
+__init__	utils/dataloaders.py	/^    def __init__(self, pipe='0', img_size=640, stride=32):$/;"	m	class:LoadWebcam
+__init__	utils/dataloaders.py	/^    def __init__(self, sampler):$/;"	m	class:_RepeatSampler
+__init__	utils/dataloaders.py	/^    def __init__(self, sources='streams.txt', img_size=640, stride=32, auto=True):$/;"	m	class:LoadStreams
+__init__	utils/dataloaders.py	/^    def __init__(self,$/;"	m	class:LoadImagesAndLabels
+__init__	utils/general.py	/^    def __init__(self, new_dir):$/;"	m	class:WorkingDirectory
+__init__	utils/general.py	/^    def __init__(self, seconds, *, timeout_msg='', suppress_timeout_errors=True):$/;"	m	class:Timeout
+__init__	utils/loggers/__init__.py	/^    def __init__(self, save_dir=None, weights=None, opt=None, hyp=None, logger=None, include=LOGGERS):$/;"	m	class:Loggers
+__init__	utils/loggers/wandb/wandb_utils.py	/^    def __init__(self, opt, run_id=None, job_type='Training'):$/;"	m	class:WandbLogger
+__init__	utils/loss.py	/^    def __init__(self, alpha=0.05):$/;"	m	class:BCEBlurWithLogitsLoss
+__init__	utils/loss.py	/^    def __init__(self, loss_fcn, gamma=1.5, alpha=0.25):$/;"	m	class:FocalLoss
+__init__	utils/loss.py	/^    def __init__(self, loss_fcn, gamma=1.5, alpha=0.25):$/;"	m	class:QFocalLoss
+__init__	utils/loss.py	/^    def __init__(self, model, autobalance=False):$/;"	m	class:ComputeLoss
+__init__	utils/metrics.py	/^    def __init__(self, nc, conf=0.25, iou_thres=0.45):$/;"	m	class:ConfusionMatrix
+__init__	utils/plots.py	/^    def __init__(self):$/;"	m	class:Colors
+__init__	utils/plots.py	/^    def __init__(self, im, line_width=None, font_size=None, font='Arial.ttf', pil=False, example='abc'):$/;"	m	class:Annotator
+__init__	utils/torch_utils.py	/^    def __init__(self, model, decay=0.9999, tau=2000, updates=0):$/;"	m	class:ModelEMA
+__init__	utils/torch_utils.py	/^    def __init__(self, patience=30):$/;"	m	class:EarlyStopping
+__iter__	utils/dataloaders.py	/^    def __iter__(self):$/;"	m	class:InfiniteDataLoader	file:
+__iter__	utils/dataloaders.py	/^    def __iter__(self):$/;"	m	class:LoadImages	file:
+__iter__	utils/dataloaders.py	/^    def __iter__(self):$/;"	m	class:LoadStreams	file:
+__iter__	utils/dataloaders.py	/^    def __iter__(self):$/;"	m	class:LoadWebcam	file:
+__iter__	utils/dataloaders.py	/^    def __iter__(self):$/;"	m	class:_RepeatSampler	file:
+__len__	models/common.py	/^    def __len__(self):$/;"	m	class:Detections	file:
+__len__	utils/dataloaders.py	/^    def __len__(self):$/;"	m	class:InfiniteDataLoader	file:
+__len__	utils/dataloaders.py	/^    def __len__(self):$/;"	m	class:LoadImages	file:
+__len__	utils/dataloaders.py	/^    def __len__(self):$/;"	m	class:LoadImagesAndLabels	file:
+__len__	utils/dataloaders.py	/^    def __len__(self):$/;"	m	class:LoadStreams	file:
+__len__	utils/dataloaders.py	/^    def __len__(self):$/;"	m	class:LoadWebcam	file:
+__next__	utils/dataloaders.py	/^    def __next__(self):$/;"	m	class:LoadImages	file:
+__next__	utils/dataloaders.py	/^    def __next__(self):$/;"	m	class:LoadStreams	file:
+__next__	utils/dataloaders.py	/^    def __next__(self):$/;"	m	class:LoadWebcam	file:
+__str__	models/common.py	/^    def __str__(self):$/;"	m	class:Detections	file:
+_apply	models/common.py	/^    def _apply(self, fn):$/;"	m	class:AutoShape
+_apply	models/yolo.py	/^    def _apply(self, fn):$/;"	m	class:Model
+_clip_augmented	models/yolo.py	/^    def _clip_augmented(self, y):$/;"	m	class:Model
+_create	hubconf.py	/^def _create(name, pretrained=True, channels=3, classes=80, autoshape=True, verbose=True, device=None):$/;"	f
+_descale_pred	models/yolo.py	/^    def _descale_pred(self, p, flips, scale, img_size):$/;"	m	class:Model
+_forward_augment	models/yolo.py	/^    def _forward_augment(self, x):$/;"	m	class:Model
+_forward_once	models/yolo.py	/^    def _forward_once(self, x, profile=False, visualize=False):$/;"	m	class:Model
+_initialize_biases	models/yolo.py	/^    def _initialize_biases(self, cf=None):  # initialize biases into Detect(), cf is class frequency$/;"	m	class:Model
+_make_grid	models/tf.py	/^    def _make_grid(nx=20, ny=20):$/;"	m	class:TFDetect
+_make_grid	models/yolo.py	/^    def _make_grid(self, nx=20, ny=20, i=0):$/;"	m	class:Detect
+_nms	models/tf.py	/^    def _nms(x, topk_all=100, iou_thres=0.45, conf_thres=0.25):  # agnostic NMS$/;"	m	class:AgnosticNMS
+_print_biases	models/yolo.py	/^    def _print_biases(self):$/;"	m	class:Model
+_profile_one_layer	models/yolo.py	/^    def _profile_one_layer(self, m, x, dt):$/;"	m	class:Model
+_timeout_handler	utils/general.py	/^    def _timeout_handler(self, signum, frame):$/;"	m	class:Timeout
+_xywh2xyxy	models/tf.py	/^    def _xywh2xyxy(xywh):$/;"	m	class:TFModel
+activations	models/tf.py	/^def activations(act=nn.SiLU):$/;"	f
+agnostic	models/common.py	/^    agnostic = False  # NMS class-agnostic$/;"	v	class:AutoShape
+agnostic_nms	export.py	/^                                         agnostic_nms=agnostic_nms or tfjs,$/;"	v
+all_logging_disabled	utils/loggers/wandb/wandb_utils.py	/^def all_logging_disabled(highest_level=logging.CRITICAL):$/;"	f
+amp	models/common.py	/^    amp = False  # Automatic Mixed Precision (AMP) inference$/;"	v	class:AutoShape
+anchor_fitness	utils/autoanchor.py	/^    def anchor_fitness(k):  # mutation fitness$/;"	f	function:kmean_anchors
+anno	val.py	/^            anno = COCO(anno_json)  # init annotations api$/;"	v
+anno_json	val.py	/^        anno_json = str(Path(data.get('path', '..\/coco')) \/ 'annotations\/instances_val2017.json')  # annotations json$/;"	v
+annotator	detect.py	/^            annotator = Annotator(im0, line_width=line_thickness, example=str(names))$/;"	v
+ap_per_class	utils/metrics.py	/^def ap_per_class(tp, conf, pred_cls, target_cls, plot=False, save_dir='.', names=(), eps=1e-16):$/;"	f
+app	utils/flask_rest_api/restapi.py	/^app = Flask(__name__)$/;"	v
+apply_classifier	utils/general.py	/^def apply_classifier(x, model, img, im0):$/;"	f
+attempt_download	utils/downloads.py	/^def attempt_download(file, repo='ultralytics\/yolov5', release='v6.1'):$/;"	f
+attempt_load	models/experimental.py	/^def attempt_load(weights, map_location=None, inplace=True, fuse=True):$/;"	f
+augment_hsv	utils/augmentations.py	/^def augment_hsv(im, hgain=0.5, sgain=0.5, vgain=0.5):$/;"	f
+autobatch	utils/autobatch.py	/^def autobatch(model, imgsz=640, fraction=0.9, batch_size=16):$/;"	f
+autopad	models/common.py	/^def autopad(k, p=None):  # kernel, padding$/;"	f
+autosplit	utils/dataloaders.py	/^def autosplit(path=DATASETS_DIR \/ 'coco128\/images', weights=(0.9, 0.1, 0.0), annotated_only=False):$/;"	f
+backward	utils/activations.py	/^        def backward(ctx, grad_output):$/;"	m	class:MemoryEfficientMish.F
+batch_size	val.py	/^                batch_size = 1  # export.py models default to batch-size 1$/;"	v
+batch_size	val.py	/^            batch_size = model.batch_size$/;"	v
+bbox_ioa	utils/metrics.py	/^def bbox_ioa(box1, box2, eps=1E-7):$/;"	f
+bbox_iou	utils/metrics.py	/^def bbox_iou(box1, box2, xywh=True, GIoU=False, DIoU=False, CIoU=False, eps=1e-7):$/;"	f
+box_area	utils/metrics.py	/^def box_area(box):$/;"	f
+box_candidates	utils/augmentations.py	/^def box_candidates(box1, box2, wh_thr=2, ar_thr=100, area_thr=0.1, eps=1e-16):  # box1(4,n), box2(4,n)$/;"	f
+box_iou	utils/metrics.py	/^def box_iou(box1, box2):$/;"	f
+box_label	utils/plots.py	/^    def box_label(self, box, label='', color=(128, 128, 128), txt_color=(255, 255, 255)):$/;"	m	class:Annotator
+bs	detect.py	/^        bs = 1  # batch_size$/;"	v
+bs	detect.py	/^        bs = len(dataset)  # batch_size$/;"	v
+build_targets	utils/loss.py	/^    def build_targets(self, p, targets):$/;"	m	class:ComputeLoss
+butter_lowpass	utils/plots.py	/^    def butter_lowpass(cutoff, fs, order):$/;"	f	function:butter_lowpass_filtfilt
+butter_lowpass_filtfilt	utils/plots.py	/^def butter_lowpass_filtfilt(data, cutoff=1500, fs=50000, order=5):$/;"	f
+c	detect.py	/^                        c = int(cls)  # integer class$/;"	v
+cache_images_to_disk	utils/dataloaders.py	/^    def cache_images_to_disk(self, i):$/;"	m	class:LoadImagesAndLabels
+cache_labels	utils/dataloaders.py	/^    def cache_labels(self, path=Path('.\/labels.cache'), prefix=''):$/;"	m	class:LoadImagesAndLabels
+cache_version	utils/dataloaders.py	/^    cache_version = 0.6  # dataset labels *.cache version$/;"	v	class:LoadImagesAndLabels
+call	models/tf.py	/^    def call(self, input, topk_all, iou_thres, conf_thres):$/;"	m	class:AgnosticNMS
+call	models/tf.py	/^    def call(self, inputs):  # x(b,w,h,c) -> y(b,w\/2,h\/2,4c)$/;"	m	class:TFFocus
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFBN
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFBottleneck
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFBottleneckCSP
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFC3
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFC3x
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFConcat
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFConv
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFConv2d
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFCrossConv
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFDWConv
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFDetect
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFPad
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFSPP
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFSPPF
+call	models/tf.py	/^    def call(self, inputs):$/;"	m	class:TFUpsample
+check_anchor_order	utils/autoanchor.py	/^def check_anchor_order(m):$/;"	f
+check_anchors	utils/autoanchor.py	/^def check_anchors(dataset, model, thr=4.0, imgsz=640):$/;"	f
+check_and_upload_dataset	utils/loggers/wandb/wandb_utils.py	/^    def check_and_upload_dataset(self, opt):$/;"	m	class:WandbLogger
+check_dataset	utils/general.py	/^def check_dataset(data, autodownload=True):$/;"	f
+check_file	utils/general.py	/^def check_file(file, suffix=''):$/;"	f
+check_font	utils/general.py	/^def check_font(font=FONT, progress=False):$/;"	f
+check_git_status	utils/general.py	/^def check_git_status():$/;"	f
+check_img_size	utils/general.py	/^def check_img_size(imgsz, s=32, floor=0):$/;"	f
+check_imshow	utils/general.py	/^def check_imshow():$/;"	f
+check_online	utils/general.py	/^def check_online():$/;"	f
+check_pil_font	utils/plots.py	/^def check_pil_font(font=FONT, size=10):$/;"	f
+check_python	utils/general.py	/^def check_python(minimum='3.7.0'):$/;"	f
+check_requirements	utils/general.py	/^def check_requirements(requirements=ROOT \/ 'requirements.txt', exclude=(), install=True, cmds=()):$/;"	f
+check_suffix	utils/general.py	/^def check_suffix(file='yolov5s.pt', suffix=('.pt',), msg=''):$/;"	f
+check_train_batch_size	utils/autobatch.py	/^def check_train_batch_size(model, imgsz=640):$/;"	f
+check_version	utils/general.py	/^def check_version(current='0.0.0', minimum='0.0.0', name='version ', pinned=False, hard=False, verbose=False):$/;"	f
+check_wandb_config_file	utils/loggers/wandb/wandb_utils.py	/^def check_wandb_config_file(data_config_file):$/;"	f
+check_wandb_dataset	utils/loggers/wandb/wandb_utils.py	/^def check_wandb_dataset(data_file):$/;"	f
+check_wandb_resume	utils/loggers/wandb/wandb_utils.py	/^def check_wandb_resume(opt):$/;"	f
+check_yaml	utils/general.py	/^def check_yaml(file, suffix=('.yaml', '.yml')):$/;"	f
+ckpt	utils/aws/resume.py	/^    ckpt = torch.load(last)$/;"	v
+class_map	val.py	/^    class_map = coco80_to_coco91_class() if is_coco else list(range(1000))$/;"	v
+classes	models/common.py	/^    classes = None  # (optional list) filter by class, i.e. = [0, 15, 16] for COCO persons, cats and dogs$/;"	v	class:AutoShape
+clean_str	utils/general.py	/^def clean_str(s):$/;"	f
+clip_coords	utils/general.py	/^def clip_coords(boxes, shape):$/;"	f
+cmd	utils/aws/resume.py	/^        cmd = f'python -m torch.distributed.run --nproc_per_node {nd} --master_port {port} train.py --resume {last}'$/;"	v
+cmd	utils/aws/resume.py	/^        cmd = f'python train.py --resume {last}'$/;"	v
+coco80_to_coco91_class	utils/general.py	/^def coco80_to_coco91_class():  # converts 80-index (val2014) to 91-index (paper)$/;"	f
+collate_fn	utils/dataloaders.py	/^    def collate_fn(batch):$/;"	m	class:LoadImagesAndLabels
+collate_fn4	utils/dataloaders.py	/^    def collate_fn4(batch):$/;"	m	class:LoadImagesAndLabels
+colors	utils/plots.py	/^colors = Colors()  # create instance for 'from utils.plots import colors'$/;"	v
+colorstr	utils/general.py	/^def colorstr(*input):$/;"	f
+compute_ap	utils/metrics.py	/^def compute_ap(recall, precision):$/;"	f
+conf	models/common.py	/^    conf = 0.25  # NMS confidence threshold$/;"	v	class:AutoShape
+conf_thres	export.py	/^                                         conf_thres=conf_thres,$/;"	v
+confusion_matrix	val.py	/^    confusion_matrix = ConfusionMatrix(nc=nc)$/;"	v
+copy_attr	utils/torch_utils.py	/^def copy_attr(a, b, include=(), exclude=()):$/;"	f
+copy_paste	utils/augmentations.py	/^def copy_paste(im, labels, segments, p=0.5):$/;"	f
+correct	val.py	/^                correct = process_batch(predn, labelsn, iouv)$/;"	v
+correct	val.py	/^            correct = torch.zeros(npr, niou, dtype=torch.bool, device=device)  # init$/;"	v
+create_dataloader	utils/dataloaders.py	/^def create_dataloader(path,$/;"	f
+create_dataset_artifact	utils/loggers/wandb/log_dataset.py	/^def create_dataset_artifact(opt):$/;"	f
+create_dataset_table	utils/loggers/wandb/wandb_utils.py	/^    def create_dataset_table(self, dataset: LoadImagesAndLabels, class_to_id: Dict[int, str], name: str = 'dataset'):$/;"	m	class:WandbLogger
+create_folder	utils/dataloaders.py	/^def create_folder(path='.\/new'):$/;"	f
+crop	models/common.py	/^    def crop(self, save=True, save_dir='runs\/detect\/exp'):$/;"	m	class:Detections
+custom	hubconf.py	/^def custom(path='path\/to\/model.pt', autoshape=True, _verbose=True, device=None):$/;"	f
+cutout	utils/augmentations.py	/^def cutout(im, labels, p=0.5):$/;"	f
+d	utils/aws/resume.py	/^    d = opt['device'].split(',')  # devices$/;"	v
+data	val.py	/^        data = check_dataset(data)  # check$/;"	v
+dataloader	val.py	/^        dataloader = create_dataloader(data[task],$/;"	v
+dataset	detect.py	/^        dataset = LoadImages(source, img_size=imgsz, stride=stride, auto=pt)$/;"	v
+dataset	detect.py	/^        dataset = LoadStreams(source, img_size=imgsz, stride=stride, auto=pt)$/;"	v
+dataset_stats	utils/dataloaders.py	/^def dataset_stats(path='coco128.yaml', autodownload=False, verbose=False, profile=False, hub=False):$/;"	f
+ddp	utils/aws/resume.py	/^    ddp = nd > 1 or (nd == 0 and torch.cuda.device_count() > 1)  # distributed data parallel$/;"	v
+de_parallel	utils/torch_utils.py	/^def de_parallel(model):$/;"	f
+device	detect.py	/^    device = select_device(device)$/;"	v
+device	export.py	/^    device = select_device(device)$/;"	v
+device	models/yolo.py	/^    device = select_device(opt.device)$/;"	v
+device	utils/benchmarks.py	/^    device = select_device(device)$/;"	v
+device	val.py	/^            device = model.device$/;"	v
+device	val.py	/^        device = select_device(device, batch_size=batch_size)$/;"	v
+device_count	utils/torch_utils.py	/^def device_count():$/;"	f
+display	models/common.py	/^    def display(self, pprint=False, show=False, save=False, crop=False, render=False, labels=True, save_dir=Path('')):$/;"	m	class:Detections
+download	utils/general.py	/^def download(url, dir='.', unzip=True, delete=True, curl=False, threads=1, retry=3):$/;"	f
+download_dataset_artifact	utils/loggers/wandb/wandb_utils.py	/^    def download_dataset_artifact(self, path, alias):$/;"	m	class:WandbLogger
+download_model_artifact	utils/loggers/wandb/wandb_utils.py	/^    def download_model_artifact(self, opt):$/;"	m	class:WandbLogger
+download_one	utils/general.py	/^    def download_one(url, dir):$/;"	f	function:download
+emojis	utils/general.py	/^def emojis(str=''):$/;"	f
+end_epoch	utils/loggers/wandb/wandb_utils.py	/^    def end_epoch(self, best_result=False):$/;"	m	class:WandbLogger
+eval	val.py	/^            eval = COCOeval(anno, pred, 'bbox')$/;"	v
+exif_size	utils/dataloaders.py	/^def exif_size(img):$/;"	f
+exif_transpose	utils/dataloaders.py	/^def exif_transpose(image):$/;"	f
+export	models/yolo.py	/^    export = False  # export mode$/;"	v	class:Detect
+export_coreml	export.py	/^def export_coreml(model, im, file, int8, half, prefix=colorstr('CoreML:')):$/;"	f
+export_edgetpu	export.py	/^def export_edgetpu(file, prefix=colorstr('Edge TPU:')):$/;"	f
+export_engine	export.py	/^def export_engine(model, im, file, train, half, simplify, workspace=4, verbose=False, prefix=colorstr('TensorRT:')):$/;"	f
+export_formats	export.py	/^def export_formats():$/;"	f
+export_onnx	export.py	/^def export_onnx(model, im, file, opset, train, dynamic, simplify, prefix=colorstr('ONNX:')):$/;"	f
+export_openvino	export.py	/^def export_openvino(file, half, prefix=colorstr('OpenVINO:')):$/;"	f
+export_pb	export.py	/^def export_pb(keras_model, file, prefix=colorstr('TensorFlow GraphDef:')):$/;"	f
+export_saved_model	export.py	/^def export_saved_model(model,$/;"	f
+export_tfjs	export.py	/^def export_tfjs(file, prefix=colorstr('TensorFlow.js:')):$/;"	f
+export_tflite	export.py	/^def export_tflite(keras_model, im, file, int8, data, nms, agnostic_nms, prefix=colorstr('TensorFlow Lite:')):$/;"	f
+export_torchscript	export.py	/^def export_torchscript(model, im, file, optimize, prefix=colorstr('TorchScript:')):$/;"	f
+extract_boxes	utils/dataloaders.py	/^def extract_boxes(path=DATASETS_DIR \/ 'coco128'):  # from utils.datasets import *; extract_boxes()$/;"	f
+f	export.py	/^    f = [''] * 10  # exported filenames$/;"	v
+f	export.py	/^    f = [str(x) for x in f if x]  # filter out '' and None$/;"	v
+feature_visualization	utils/plots.py	/^def feature_visualization(x, module_type, stage, n=32, save_dir=Path('runs\/detect\/exp')):$/;"	f
+file	export.py	/^    file = Path(url2file(weights) if str(weights).startswith(('http:\/', 'https:\/')) else weights)  # PyTorch weights$/;"	v
+file_age	utils/general.py	/^def file_age(path=__file__):$/;"	f
+file_date	utils/general.py	/^def file_date(path=__file__):$/;"	f
+file_size	utils/general.py	/^def file_size(path):$/;"	f
+find_modules	utils/torch_utils.py	/^def find_modules(model, mclass=nn.Conv2d):$/;"	f
+finish_run	utils/loggers/wandb/wandb_utils.py	/^    def finish_run(self):$/;"	m	class:WandbLogger
+fitness	utils/metrics.py	/^def fitness(x):$/;"	f
+flags	export.py	/^    flags = [x in include for x in formats]$/;"	v
+flatten_recursive	utils/dataloaders.py	/^def flatten_recursive(path=DATASETS_DIR \/ 'coco128'):$/;"	f
+formats	export.py	/^    formats = tuple(export_formats()['Argument'][1:])  # --include arguments$/;"	v
+formats	utils/benchmarks.py	/^    formats = export.export_formats()$/;"	v
+forward	models/common.py	/^    def forward(self, im, augment=False, visualize=False, val=False):$/;"	m	class:DetectMultiBackend
+forward	models/common.py	/^    def forward(self, imgs, size=640, augment=False, profile=False):$/;"	m	class:AutoShape
+forward	models/common.py	/^    def forward(self, x):  # x(b,c,w,h) -> y(b,4c,w\/2,h\/2)$/;"	m	class:Focus
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:Bottleneck
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:BottleneckCSP
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:C3
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:Classify
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:Concat
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:Contract
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:Conv
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:CrossConv
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:Expand
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:GhostBottleneck
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:GhostConv
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:SPP
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:SPPF
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:TransformerBlock
+forward	models/common.py	/^    def forward(self, x):$/;"	m	class:TransformerLayer
+forward	models/experimental.py	/^    def forward(self, x):$/;"	m	class:MixConv2d
+forward	models/experimental.py	/^    def forward(self, x):$/;"	m	class:Sum
+forward	models/experimental.py	/^    def forward(self, x, augment=False, profile=False, visualize=False):$/;"	m	class:Ensemble
+forward	models/yolo.py	/^    def forward(self, x):$/;"	m	class:Detect
+forward	models/yolo.py	/^    def forward(self, x, augment=False, profile=False, visualize=False):$/;"	m	class:Model
+forward	utils/activations.py	/^        def forward(ctx, x):$/;"	m	class:MemoryEfficientMish.F
+forward	utils/activations.py	/^    def forward(self, x):$/;"	m	class:AconC
+forward	utils/activations.py	/^    def forward(self, x):$/;"	m	class:FReLU
+forward	utils/activations.py	/^    def forward(self, x):$/;"	m	class:MemoryEfficientMish
+forward	utils/activations.py	/^    def forward(self, x):$/;"	m	class:MetaAconC
+forward	utils/activations.py	/^    def forward(x):$/;"	m	class:Hardswish
+forward	utils/activations.py	/^    def forward(x):$/;"	m	class:Mish
+forward	utils/activations.py	/^    def forward(x):$/;"	m	class:SiLU
+forward	utils/loss.py	/^    def forward(self, pred, true):$/;"	m	class:BCEBlurWithLogitsLoss
+forward	utils/loss.py	/^    def forward(self, pred, true):$/;"	m	class:FocalLoss
+forward	utils/loss.py	/^    def forward(self, pred, true):$/;"	m	class:QFocalLoss
+forward_fuse	models/common.py	/^    def forward_fuse(self, x):$/;"	m	class:Conv
+fps	detect.py	/^                            fps = vid_cap.get(cv2.CAP_PROP_FPS)$/;"	v
+fuse	models/yolo.py	/^    def fuse(self):  # fuse model Conv2d() + BatchNorm2d() layers$/;"	m	class:Model
+fuse_conv_and_bn	utils/torch_utils.py	/^def fuse_conv_and_bn(conv, bn):$/;"	f
+gdrive_download	utils/downloads.py	/^def gdrive_download(id='16TiPfZj7htmTyhntwcZyEEAejOUxuT6m', file='tmp.zip'):$/;"	f
+get_hash	utils/dataloaders.py	/^def get_hash(paths):$/;"	f
+get_latest_run	utils/general.py	/^def get_latest_run(search_dir='.'):$/;"	f
+get_registered_actions	utils/callbacks.py	/^    def get_registered_actions(self, hook=None):$/;"	m	class:Callbacks
+get_run_info	utils/loggers/wandb/wandb_utils.py	/^def get_run_info(run_path):$/;"	f
+get_token	utils/downloads.py	/^def get_token(cookie=".\/cookie"):$/;"	f
+git_describe	utils/general.py	/^def git_describe(path=ROOT):  # path must be a directory$/;"	f
+github_assets	utils/downloads.py	/^    def github_assets(repository, version='latest'):$/;"	f	function:attempt_download
+gn	detect.py	/^            gn = torch.tensor(im0.shape)[[1, 0, 1, 0]]  # normalization gain whwh$/;"	v
+gs	export.py	/^    gs = int(max(model.stride))  # grid size (max stride)$/;"	v
+gsutil_getsize	utils/downloads.py	/^def gsutil_getsize(url=''):$/;"	f
+h	detect.py	/^                            h = int(vid_cap.get(cv2.CAP_PROP_FRAME_HEIGHT))$/;"	v
+half	val.py	/^        half = model.fp16  # FP16 supported on limited backends with CUDA$/;"	v
+handler	utils/general.py	/^    def handler(*args, **kwargs):$/;"	f	function:try_except
+hex2rgb	utils/plots.py	/^    def hex2rgb(h):  # rgb order (PIL)$/;"	m	class:Colors
+hist2d	utils/plots.py	/^def hist2d(x, y, n=100):$/;"	f
+hist_equalize	utils/augmentations.py	/^def hist_equalize(im, clahe=True, bgr=False):$/;"	f
+hub_ops	utils/dataloaders.py	/^    def hub_ops(f, max_dim=1920):$/;"	f	function:dataset_stats
+im	detect.py	/^            im = im[None]  # expand for batch dim$/;"	v
+im	detect.py	/^        im = im.half() if model.fp16 else im.float()  # uint8 to fp16\/32$/;"	v
+im	detect.py	/^        im = torch.from_numpy(im).to(device)$/;"	v
+im	export.py	/^    im = torch.zeros(batch_size, 3, *imgsz).to(device)  # image size(1,3,320,192) BCHW iDetection$/;"	v
+im	models/tf.py	/^    im = keras.Input(shape=(*imgsz, 3), batch_size=None if dynamic else batch_size)$/;"	v
+im	models/tf.py	/^    im = tf.zeros((batch_size, *imgsz, 3))  # BHWC image$/;"	v
+im	models/tf.py	/^    im = torch.zeros((batch_size, 3, *imgsz))  # BCHW image$/;"	v
+im	models/yolo.py	/^    im = torch.rand(opt.batch_size, 3, 640, 640).to(device)$/;"	v
+im	val.py	/^            im = im.to(device, non_blocking=True)$/;"	v
+im	val.py	/^        im = im.half() if half else im.float()  # uint8 to fp16\/32$/;"	v
+im0	detect.py	/^            im0 = annotator.result()$/;"	v
+image_data	utils/flask_rest_api/example_request.py	/^    image_data = f.read()$/;"	v
+imc	detect.py	/^            imc = im0.copy() if save_crop else im0  # for save_crop$/;"	v
+img2label_paths	utils/dataloaders.py	/^def img2label_paths(img_paths):$/;"	f
+imgsz	detect.py	/^    imgsz = check_img_size(imgsz, s=stride)  # check image size$/;"	v
+imgsz	export.py	/^    imgsz = [check_img_size(x, gs) for x in imgsz]  # verify img_size are gs-multiples$/;"	v
+imgsz	val.py	/^        imgsz = check_img_size(imgsz, s=stride)  # check image size$/;"	v
+imread	utils/general.py	/^def imread(path, flags=cv2.IMREAD_COLOR):$/;"	f
+imshow	utils/general.py	/^def imshow(path, im):$/;"	f
+imshow_	utils/general.py	/^imshow_ = cv2.imshow  # copy to avoid recursion errors$/;"	v
+imwrite	utils/general.py	/^def imwrite(path, im):$/;"	f
+include	export.py	/^    include = [x.lower() for x in include]  # to lowercase$/;"	v
+increment_path	utils/general.py	/^def increment_path(path, exist_ok=False, sep='', mkdir=False):$/;"	f
+info	models/yolo.py	/^    def info(self, verbose=False, img_size=640):  # print model information$/;"	m	class:Model
+init_seeds	utils/general.py	/^def init_seeds(seed=0):$/;"	f
+initialize_weights	utils/torch_utils.py	/^def initialize_weights(model):$/;"	f
+intersect_dicts	utils/general.py	/^def intersect_dicts(da, db, exclude=()):$/;"	f
+iou	models/common.py	/^    iou = 0.45  # NMS IoU threshold$/;"	v	class:AutoShape
+iou_thres	export.py	/^                                         iou_thres=iou_thres)  # keras model$/;"	v
+iouv	val.py	/^    iouv = torch.linspace(0.5, 0.95, 10, device=device)  # iou vector for mAP@0.5:0.95$/;"	v
+is_ascii	utils/general.py	/^def is_ascii(s=''):$/;"	f
+is_chinese	utils/general.py	/^def is_chinese(s='人工智能'):$/;"	f
+is_coco	val.py	/^    is_coco = isinstance(data.get('val'), str) and data['val'].endswith(f'coco{os.sep}val2017.txt')  # COCO dataset$/;"	v
+is_colab	utils/general.py	/^def is_colab():$/;"	f
+is_docker	utils/general.py	/^def is_docker():$/;"	f
+is_file	detect.py	/^    is_file = Path(source).suffix[1:] in (IMG_FORMATS + VID_FORMATS)$/;"	v
+is_kaggle	utils/general.py	/^def is_kaggle():$/;"	f
+is_parallel	utils/torch_utils.py	/^def is_parallel(model):$/;"	f
+is_pip	utils/general.py	/^def is_pip():$/;"	f
+is_url	detect.py	/^    is_url = source.lower().startswith(('rtsp:\/\/', 'rtmp:\/\/', 'http:\/\/', 'https:\/\/'))$/;"	v
+is_url	utils/downloads.py	/^def is_url(url):$/;"	f
+is_writeable	utils/general.py	/^def is_writeable(dir, test=False):$/;"	f
+keras_model	models/tf.py	/^    keras_model = keras.Model(inputs=im, outputs=tf_model.predict(im))$/;"	v
+kmean_anchors	utils/autoanchor.py	/^def kmean_anchors(dataset='.\/data\/coco128.yaml', n=9, img_size=640, thr=4.0, gen=1000, verbose=True):$/;"	f
+label	detect.py	/^                        label = None if hide_labels else (names[c] if hide_conf else f'{names[c]} {conf:.2f}')$/;"	v
+labels_to_class_weights	utils/general.py	/^def labels_to_class_weights(labels, nc=80):$/;"	f
+labels_to_image_weights	utils/general.py	/^def labels_to_image_weights(labels, nc=80, class_weights=np.ones(80)):$/;"	f
+labelsn	val.py	/^                labelsn = torch.cat((labels[:, 0:1], tbox), 1)  # native-space labels$/;"	v
+letterbox	utils/augmentations.py	/^def letterbox(im, new_shape=(640, 640), color=(114, 114, 114), auto=True, scaleFill=False, scaleup=True, stride=32):$/;"	f
+line	detect.py	/^                        line = (cls, *xywh, conf) if save_conf else (cls, *xywh)  # label format$/;"	v
+load_image	utils/dataloaders.py	/^    def load_image(self, i):$/;"	m	class:LoadImagesAndLabels
+load_mosaic	utils/dataloaders.py	/^    def load_mosaic(self, index):$/;"	m	class:LoadImagesAndLabels
+load_mosaic9	utils/dataloaders.py	/^    def load_mosaic9(self, index):$/;"	m	class:LoadImagesAndLabels
+log	utils/loggers/wandb/wandb_utils.py	/^    def log(self, log_dict):$/;"	m	class:WandbLogger
+log_dataset_artifact	utils/loggers/wandb/wandb_utils.py	/^    def log_dataset_artifact(self, data_file, single_cls, project, overwrite_config=False):$/;"	m	class:WandbLogger
+log_model	utils/loggers/wandb/wandb_utils.py	/^    def log_model(self, path, opt, epoch, fitness_score, best_model=False):$/;"	m	class:WandbLogger
+log_training_progress	utils/loggers/wandb/wandb_utils.py	/^    def log_training_progress(self, predn, path, names):$/;"	m	class:WandbLogger
+loss	val.py	/^    loss = torch.zeros(3, device=device)$/;"	v
+main	detect.py	/^def main(opt):$/;"	f
+main	export.py	/^def main(opt):$/;"	f
+main	models/tf.py	/^def main(opt):$/;"	f
+main	train.py	/^def main(opt, callbacks=Callbacks()):$/;"	f
+main	utils/benchmarks.py	/^def main(opt):$/;"	f
+main	val.py	/^def main(opt):$/;"	f
+make_divisible	utils/general.py	/^def make_divisible(x, divisor):$/;"	f
+map_val_table_path	utils/loggers/wandb/wandb_utils.py	/^    def map_val_table_path(self):$/;"	m	class:WandbLogger
+maps	val.py	/^    maps = np.zeros(nc) + map$/;"	v
+matrix	utils/metrics.py	/^    def matrix(self):$/;"	m	class:ConfusionMatrix
+max_det	models/common.py	/^    max_det = 1000  # maximum number of detections per image$/;"	v	class:AutoShape
+methods	utils/general.py	/^def methods(instance):$/;"	f
+metric	utils/autoanchor.py	/^    def metric(k):  # compute metric$/;"	f	function:check_anchors
+metric	utils/autoanchor.py	/^    def metric(k, wh):  # compute metrics$/;"	f	function:kmean_anchors
+metrics	utils/benchmarks.py	/^            metrics = result[0]  # metrics (mp, mr, map50, map, *losses(box, obj, cls))$/;"	v
+mixup	utils/augmentations.py	/^def mixup(im, labels, im2, labels2):$/;"	f
+model	detect.py	/^    model = DetectMultiBackend(weights, device=device, dnn=dnn, data=data, fp16=half)$/;"	v
+model	export.py	/^    model = attempt_load(weights, map_location=device, inplace=True, fuse=True)  # load FP32 model$/;"	v
+model	models/tf.py	/^    model = attempt_load(weights, map_location=torch.device('cpu'), inplace=True, fuse=False)$/;"	v
+model	models/yolo.py	/^    model = Model(opt.cfg).to(device)$/;"	v
+model	utils/flask_rest_api/restapi.py	/^    model = torch.hub.load("ultralytics\/yolov5", "yolov5s", force_reload=True)  # force_reload to recache$/;"	v
+model	val.py	/^        model = DetectMultiBackend(weights, device=device, dnn=dnn, data=data, fp16=half)$/;"	v
+model_info	utils/torch_utils.py	/^def model_info(model, verbose=False, img_size=640):$/;"	f
+model_type	models/common.py	/^    def model_type(p='path\/to\/model.pt'):$/;"	m	class:DetectMultiBackend
+multi_label	models/common.py	/^    multi_label = False  # NMS multiple labels per box$/;"	v	class:AutoShape
+n	detect.py	/^                    n = (det[:, -1] == c).sum()  # detections per class$/;"	v
+names	val.py	/^    names = {k: v for k, v in enumerate(model.names if hasattr(model, 'names') else model.module.names)}$/;"	v
+nc	val.py	/^    nc = 1 if single_cls else int(data['nc'])  # number of classes$/;"	v
+ncm	val.py	/^            ncm = model.model.nc$/;"	v
+nd	utils/aws/resume.py	/^    nd = len(d)  # number of devices$/;"	v
+new_video	utils/dataloaders.py	/^    def new_video(self, path):$/;"	m	class:LoadImages
+niou	val.py	/^    niou = iouv.numel()$/;"	v
+non_max_suppression	utils/general.py	/^def non_max_suppression(prediction,$/;"	f
+notebook_init	utils/__init__.py	/^def notebook_init(verbose=True):$/;"	f
+nt	val.py	/^        nt = np.bincount(stats[3].astype(np.int64), minlength=nc)  # number of targets per class$/;"	v
+nt	val.py	/^        nt = torch.zeros(1)$/;"	v
+on_fit_epoch_end	utils/loggers/__init__.py	/^    def on_fit_epoch_end(self, vals, epoch, best_fitness, fi):$/;"	m	class:Loggers
+on_model_save	utils/loggers/__init__.py	/^    def on_model_save(self, last, epoch, final_epoch, best_fitness, fi):$/;"	m	class:Loggers
+on_params_update	utils/loggers/__init__.py	/^    def on_params_update(self, params):$/;"	m	class:Loggers
+on_pretrain_routine_end	utils/loggers/__init__.py	/^    def on_pretrain_routine_end(self):$/;"	m	class:Loggers
+on_train_batch_end	utils/loggers/__init__.py	/^    def on_train_batch_end(self, ni, model, imgs, targets, paths, plots):$/;"	m	class:Loggers
+on_train_end	utils/loggers/__init__.py	/^    def on_train_end(self, last, best, plots, epoch, results):$/;"	m	class:Loggers
+on_train_epoch_end	utils/loggers/__init__.py	/^    def on_train_epoch_end(self, epoch):$/;"	m	class:Loggers
+on_train_start	utils/loggers/__init__.py	/^    def on_train_start(self):$/;"	m	class:Loggers
+on_val_end	utils/loggers/__init__.py	/^    def on_val_end(self):$/;"	m	class:Loggers
+on_val_image_end	utils/loggers/__init__.py	/^    def on_val_image_end(self, pred, predn, path, names, im):$/;"	m	class:Loggers
+one_cycle	utils/general.py	/^def one_cycle(y1=0.0, y2=1.0, steps=100):$/;"	f
+onnx_dynamic	models/yolo.py	/^    onnx_dynamic = False  # ONNX export parameter$/;"	v	class:Detect
+opt	models/yolo.py	/^    opt = parser.parse_args()$/;"	v
+opt	train.py	/^    opt = parse_opt()$/;"	v
+opt	utils/aws/resume.py	/^        opt = yaml.safe_load(f)$/;"	v
+opt	utils/flask_rest_api/restapi.py	/^    opt = parser.parse_args()$/;"	v
+opt	utils/loggers/wandb/log_dataset.py	/^    opt = parser.parse_args()$/;"	v
+opt	val.py	/^    opt = parse_opt()$/;"	v
+out	val.py	/^        out = non_max_suppression(out, conf_thres, iou_thres, labels=lb, multi_label=True, agnostic=single_cls)$/;"	v
+output_to_target	utils/plots.py	/^def output_to_target(output):$/;"	f
+p	detect.py	/^            p = Path(p)  # to Path$/;"	v
+pad	val.py	/^                                       pad=pad,$/;"	v
+pad	val.py	/^        pad = 0.0 if task in ('speed', 'benchmark') else 0.5$/;"	v
+pandas	models/common.py	/^    def pandas(self):$/;"	m	class:Detections
+parse_model	models/tf.py	/^def parse_model(d, ch, model, imgsz):  # model_dict, input_channels(3)$/;"	f
+parse_model	models/yolo.py	/^def parse_model(d, ch):  # model_dict, input_channels(3)$/;"	f
+parse_opt	detect.py	/^def parse_opt():$/;"	f
+parse_opt	export.py	/^def parse_opt():$/;"	f
+parse_opt	models/tf.py	/^def parse_opt():$/;"	f
+parse_opt	train.py	/^def parse_opt(known=False):$/;"	f
+parse_opt	utils/benchmarks.py	/^def parse_opt():$/;"	f
+parse_opt	val.py	/^def parse_opt():$/;"	f
+parser	models/yolo.py	/^    parser = argparse.ArgumentParser()$/;"	v
+parser	utils/flask_rest_api/restapi.py	/^    parser = argparse.ArgumentParser(description="Flask API exposing YOLOv5 model")$/;"	v
+parser	utils/loggers/wandb/log_dataset.py	/^    parser = argparse.ArgumentParser()$/;"	v
+path	utils/aws/resume.py	/^path = Path('').resolve()$/;"	v
+pbar	val.py	/^    pbar = tqdm(dataloader, desc=s, bar_format='{l_bar}{bar:10}{r_bar}{bar:-10b}')  # progress bar$/;"	v
+pf	val.py	/^    pf = '%20s' + '%11i' * 2 + '%11.3g' * 4  # print format$/;"	v
+plot	utils/metrics.py	/^    def plot(self, normalize=True, save_dir='', names=()):$/;"	m	class:ConfusionMatrix
+plot_evolve	utils/plots.py	/^def plot_evolve(evolve_csv='path\/to\/evolve.csv'):  # from utils.plots import *; plot_evolve()$/;"	f
+plot_images	utils/plots.py	/^def plot_images(images, targets, paths=None, fname='images.jpg', names=None, max_size=1920, max_subplots=16):$/;"	f
+plot_labels	utils/plots.py	/^def plot_labels(labels, names=(), save_dir=Path('')):$/;"	f
+plot_lr_scheduler	utils/plots.py	/^def plot_lr_scheduler(optimizer, scheduler, epochs=300, save_dir=''):$/;"	f
+plot_mc_curve	utils/metrics.py	/^def plot_mc_curve(px, py, save_dir=Path('mc_curve.png'), names=(), xlabel='Confidence', ylabel='Metric'):$/;"	f
+plot_pr_curve	utils/metrics.py	/^def plot_pr_curve(px, py, ap, save_dir=Path('pr_curve.png'), names=()):$/;"	f
+plot_results	utils/plots.py	/^def plot_results(file='path\/to\/results.csv', dir=''):$/;"	f
+plot_targets_txt	utils/plots.py	/^def plot_targets_txt():  # from utils.plots import *; plot_targets_txt()$/;"	f
+plot_val_study	utils/plots.py	/^def plot_val_study(file='', dir='', x=None):  # from utils.plots import *; plot_val_study()$/;"	f
+plot_val_txt	utils/plots.py	/^def plot_val_txt():  # from utils.plots import *; plot_val()$/;"	f
+port	utils/aws/resume.py	/^port = 0  # --master_port$/;"	v
+pred	detect.py	/^        pred = model(im, augment=augment, visualize=visualize)$/;"	v
+pred	detect.py	/^        pred = non_max_suppression(pred, conf_thres, iou_thres, classes, agnostic_nms, max_det=max_det)$/;"	v
+pred	val.py	/^            pred = anno.loadRes(pred_json)  # init predictions api$/;"	v
+pred_json	val.py	/^        pred_json = str(save_dir \/ f"{w}_predictions.json")  # predictions json$/;"	v
+predict	models/tf.py	/^    def predict(self,$/;"	m	class:TFModel
+predict	utils/flask_rest_api/restapi.py	/^def predict():$/;"	f
+predn	val.py	/^            predn = pred.clone()$/;"	v
+prefix	val.py	/^                                       prefix=colorstr(f'{task}: '))[0]$/;"	v
+print	models/common.py	/^    def print(self):$/;"	m	class:Detections
+print	utils/metrics.py	/^    def print(self):$/;"	m	class:ConfusionMatrix
+print_args	utils/general.py	/^def print_args(args: Optional[dict] = None, show_file=True, show_fcn=False):$/;"	f
+print_mutation	utils/general.py	/^def print_mutation(results, hyp, save_dir, bucket, prefix=colorstr('evolve: ')):$/;"	f
+print_results	utils/autoanchor.py	/^    def print_results(k, verbose=True):$/;"	f	function:kmean_anchors
+process_batch	utils/metrics.py	/^    def process_batch(self, detections, labels):$/;"	m	class:ConfusionMatrix
+process_batch	val.py	/^def process_batch(detections, labels, iouv):$/;"	f
+process_wandb_config_ddp_mode	utils/loggers/wandb/wandb_utils.py	/^def process_wandb_config_ddp_mode(opt):$/;"	f
+profile	utils/torch_utils.py	/^def profile(input, ops, n=10, device=None):$/;"	f
+profile_idetection	utils/plots.py	/^def profile_idetection(start=0, stop=0, labels=(), save_dir=''):$/;"	f
+prune	utils/torch_utils.py	/^def prune(model, amount=0.3):$/;"	f
+py	utils/benchmarks.py	/^    py = pd.DataFrame(y, columns=['Format', 'Export'])$/;"	v
+py	utils/benchmarks.py	/^    py = pd.DataFrame(y, columns=['Format', 'mAP@0.5:0.95', 'Inference time (ms)'] if map else ['Format', 'Export', ''])$/;"	v
+rand_interp_methods	utils/dataloaders.py	/^    rand_interp_methods = [cv2.INTER_NEAREST, cv2.INTER_LINEAR, cv2.INTER_CUBIC, cv2.INTER_AREA, cv2.INTER_LANCZOS4]$/;"	v	class:LoadImagesAndLabels
+random_perspective	utils/augmentations.py	/^def random_perspective(im,$/;"	f
+rect	val.py	/^                                       rect=rect,$/;"	v
+rectangle	utils/plots.py	/^    def rectangle(self, xy, fill=None, outline=None, width=1):$/;"	m	class:Annotator
+register_action	utils/callbacks.py	/^    def register_action(self, hook, name='', callback=None):$/;"	m	class:Callbacks
+remove_prefix	utils/loggers/wandb/wandb_utils.py	/^def remove_prefix(from_string, prefix=WANDB_ARTIFACT_PREFIX):$/;"	f
+render	models/common.py	/^    def render(self, labels=True):$/;"	m	class:Detections
+replicate	utils/augmentations.py	/^def replicate(im, labels):$/;"	f
+representative_dataset_gen	models/tf.py	/^def representative_dataset_gen(dataset, ncalib=100):$/;"	f
+resample_segments	utils/general.py	/^def resample_segments(segments, n=1000):$/;"	f
+response	utils/flask_rest_api/example_request.py	/^response = requests.post(DETECTION_URL, files={"image": image_data}).json()$/;"	v
+result	utils/benchmarks.py	/^            result = val.run(data, w, batch_size, imgsz, plots=False, device=device, task='benchmark', half=half)$/;"	v
+result	utils/plots.py	/^    def result(self):$/;"	m	class:Annotator
+results	models/yolo.py	/^        results = profile(input=im, ops=[model], n=3)$/;"	v
+round_labels	utils/dataloaders.py	/^    def round_labels(labels):$/;"	f	function:dataset_stats
+run	detect.py	/^def run($/;"	f
+run	export.py	/^def run($/;"	f
+run	models/tf.py	/^def run($/;"	f
+run	train.py	/^def run(**kwargs):$/;"	f
+run	utils/benchmarks.py	/^def run($/;"	f
+run	utils/callbacks.py	/^    def run(self, hook, *args, **kwargs):$/;"	m	class:Callbacks
+run	val.py	/^def run($/;"	f
+s	detect.py	/^        s = f"\\n{len(list(save_dir.glob('labels\/*.txt')))} labels saved to {save_dir \/ 'labels'}" if save_txt else ''$/;"	v
+s	val.py	/^        s = f"\\n{len(list(save_dir.glob('labels\/*.txt')))} labels saved to {save_dir \/ 'labels'}" if save_txt else ''$/;"	v
+s	val.py	/^    s = ('%20s' + '%11s' * 6) % ('Class', 'Images', 'Labels', 'P', 'R', 'mAP@.5', 'mAP@.5:.95')$/;"	v
+safe_download	utils/downloads.py	/^def safe_download(file, url, url2=None, min_bytes=1E0, error_msg=''):$/;"	f
+save	models/common.py	/^    def save(self, labels=True, save_dir='runs\/detect\/exp'):$/;"	m	class:Detections
+save_dir	detect.py	/^    save_dir = increment_path(Path(project) \/ name, exist_ok=exist_ok)  # increment run$/;"	v
+save_dir	val.py	/^        save_dir = increment_path(Path(project) \/ name, exist_ok=exist_ok)  # increment run$/;"	v
+save_img	detect.py	/^    save_img = not nosave and not source.endswith('.txt')  # save inference images$/;"	v
+save_one_box	utils/plots.py	/^def save_one_box(xyxy, im, file=Path('im.jpg'), gain=1.02, pad=10, square=False, BGR=False, save=True):$/;"	f
+save_one_json	val.py	/^def save_one_json(predn, jdict, path, class_map):$/;"	f
+save_one_txt	val.py	/^def save_one_txt(predn, save_conf, shape, file):$/;"	f
+save_path	detect.py	/^                        save_path = str(Path(save_path).with_suffix('.mp4'))  # force *.mp4 suffix on results videos$/;"	v
+save_path	detect.py	/^            save_path = str(save_dir \/ p.name)  # im.jpg$/;"	v
+scale_coords	utils/general.py	/^def scale_coords(img1_shape, coords, img0_shape, ratio_pad=None):$/;"	f
+scale_img	utils/torch_utils.py	/^def scale_img(img, ratio=1.0, same_shape=False, gs=32):  # img(16,3,256,416)$/;"	f
+seen	val.py	/^    seen = 0$/;"	v
+segment2box	utils/general.py	/^def segment2box(segment, width=640, height=640):$/;"	f
+segments2boxes	utils/general.py	/^def segments2boxes(segments):$/;"	f
+select_device	utils/torch_utils.py	/^def select_device(device='', batch_size=0, newline=True):$/;"	f
+set_logging	utils/general.py	/^def set_logging(name=None, verbose=VERBOSE):$/;"	f
+setup_training	utils/loggers/wandb/wandb_utils.py	/^    def setup_training(self, opt):$/;"	m	class:WandbLogger
+shape	export.py	/^    shape = tuple(y[0].shape)  # model output shape$/;"	v
+shape	val.py	/^        shape = (batch_size, 3, imgsz, imgsz)$/;"	v
+show	models/common.py	/^    def show(self, labels=True):$/;"	m	class:Detections
+smooth	utils/metrics.py	/^def smooth(y, f=0.05):$/;"	f
+smooth_BCE	utils/loss.py	/^def smooth_BCE(eps=0.1):  # https:\/\/github.com\/ultralytics\/yolov3\/issues\/238#issuecomment-598028441$/;"	f
+sort_obj_iou	utils/loss.py	/^    sort_obj_iou = False$/;"	v	class:ComputeLoss
+source	detect.py	/^        source = check_file(source)  # download$/;"	v
+source	detect.py	/^    source = str(source)$/;"	v
+sparsity	utils/torch_utils.py	/^def sparsity(model):$/;"	f
+speeds	utils/benchmarks.py	/^            speeds = result[2]  # times (preprocess, inference, postprocess)$/;"	v
+stats	val.py	/^    stats = [torch.cat(x, 0).cpu().numpy() for x in zip(*stats)]  # to numpy$/;"	v
+stride	models/yolo.py	/^    stride = None  # strides computed during build$/;"	v	class:Detect
+strip_optimizer	utils/general.py	/^def strip_optimizer(f='best.pt', s=''):  # from utils.general import *; strip_optimizer()$/;"	f
+sweep	utils/loggers/wandb/sweep.py	/^def sweep():$/;"	f
+t	detect.py	/^    t = tuple(x \/ seen * 1E3 for x in dt)  # speeds per image$/;"	v
+t	export.py	/^    t = time.time()$/;"	v
+t	val.py	/^    t = tuple(x \/ seen * 1E3 for x in dt)  # speeds per image$/;"	v
+t1	detect.py	/^        t1 = time_sync()$/;"	v
+t1	val.py	/^        t1 = time_sync()$/;"	v
+t2	detect.py	/^        t2 = time_sync()$/;"	v
+t2	val.py	/^        t2 = time_sync()$/;"	v
+t3	detect.py	/^        t3 = time_sync()$/;"	v
+t3	val.py	/^        t3 = time_sync()$/;"	v
+targets	val.py	/^            targets = targets.to(device)$/;"	v
+task	val.py	/^        task = task if task in ('train', 'val', 'test') else 'val'  # path to train\/val\/test images$/;"	v
+tbox	val.py	/^                tbox = xywh2xyxy(labels[:, 1:5])  # target boxes$/;"	v
+test	utils/benchmarks.py	/^def test($/;"	f
+text	utils/plots.py	/^    def text(self, xy, text, txt_color=(255, 255, 255)):$/;"	m	class:Annotator
+tf_model	models/tf.py	/^    tf_model = TFModel(cfg=model.yaml, model=model, nc=model.nc, imgsz=imgsz)$/;"	v
+tf_nms	export.py	/^                                         tf_nms=nms or agnostic_nms or tfjs,$/;"	v
+thop	models/yolo.py	/^    thop = None$/;"	v
+thop	utils/torch_utils.py	/^    thop = None$/;"	v
+threaded	utils/general.py	/^def threaded(func):$/;"	f
+time_sync	utils/torch_utils.py	/^def time_sync():$/;"	f
+tolist	models/common.py	/^    def tolist(self):$/;"	m	class:Detections
+topk_all	export.py	/^                                         topk_all=topk_all,$/;"	v
+topk_per_class	export.py	/^                                         topk_per_class=topk_per_class,$/;"	v
+torch_distributed_zero_first	utils/torch_utils.py	/^def torch_distributed_zero_first(local_rank: int):$/;"	f
+tp_fp	utils/metrics.py	/^    def tp_fp(self):$/;"	m	class:ConfusionMatrix
+train	train.py	/^def train(hyp, opt, device, callbacks):  # hyp is path\/to\/hyp.yaml or hyp dictionary$/;"	f
+training	val.py	/^    training = model is not None$/;"	v
+try_except	utils/general.py	/^def try_except(func):$/;"	f
+txt_path	detect.py	/^            txt_path = str(save_dir \/ 'labels' \/ p.stem) + ('' if dataset.mode == 'image' else f'_{frame}')  # im.txt$/;"	v
+unzip	utils/dataloaders.py	/^    def unzip(path):$/;"	f	function:dataset_stats
+update	utils/dataloaders.py	/^    def update(self, i, cap, stream):$/;"	m	class:LoadStreams
+update	utils/torch_utils.py	/^    def update(self, model):$/;"	m	class:ModelEMA
+update_attr	utils/torch_utils.py	/^    def update_attr(self, model, include=(), exclude=('process_group', 'reducer')):$/;"	m	class:ModelEMA
+url2file	utils/general.py	/^def url2file(url):$/;"	f
+user_config_dir	utils/general.py	/^def user_config_dir(dir='Ultralytics', env_var='YOLOV5_CONFIG_DIR'):$/;"	f
+val_one_image	utils/loggers/wandb/wandb_utils.py	/^    def val_one_image(self, pred, predn, path, names, im):$/;"	m	class:WandbLogger
+verify_image_label	utils/dataloaders.py	/^def verify_image_label(args):$/;"	f
+view_img	detect.py	/^        view_img = check_imshow()$/;"	v
+visualize	detect.py	/^        visualize = increment_path(save_dir \/ Path(path).stem, mkdir=True) if visualize else False$/;"	v
+w	detect.py	/^                            w = int(vid_cap.get(cv2.CAP_PROP_FRAME_WIDTH))$/;"	v
+w	utils/benchmarks.py	/^                w = export.run(weights=weights, imgsz=[imgsz], include=[f], device=device, half=half)[-1]  # all others$/;"	v
+w	utils/benchmarks.py	/^                w = weights  # PyTorch format$/;"	v
+w	val.py	/^        w = Path(weights[0] if isinstance(weights, list) else weights).stem if weights is not None else ''  # weights$/;"	v
+wandb	utils/loggers/__init__.py	/^            wandb = None$/;"	v
+wandb	utils/loggers/__init__.py	/^    wandb = None$/;"	v
+wandb	utils/loggers/wandb/wandb_utils.py	/^    wandb = None$/;"	v
+wandb_login_success	utils/loggers/__init__.py	/^            wandb_login_success = False$/;"	v
+wandb_login_success	utils/loggers/__init__.py	/^            wandb_login_success = wandb.login(timeout=30)$/;"	v
+warmup	models/common.py	/^    def warmup(self, imgsz=(1, 3, 640, 640)):$/;"	m	class:DetectMultiBackend
+webcam	detect.py	/^    webcam = source.isnumeric() or source.endswith('.txt') or (is_url and not is_file)$/;"	v
+wh_iou	utils/metrics.py	/^def wh_iou(wh1, wh2):$/;"	f
+workers	val.py	/^                                       workers=workers,$/;"	v
+wrap_frozen_graph	models/common.py	/^                def wrap_frozen_graph(gd, inputs, outputs):$/;"	f	function:DetectMultiBackend.__init__
+wrapper	utils/general.py	/^    def wrapper(*args, **kwargs):$/;"	f	function:threaded
+xyn2xy	utils/general.py	/^def xyn2xy(x, w=640, h=640, padw=0, padh=0):$/;"	f
+xywh	detect.py	/^                        xywh = (xyxy2xywh(torch.tensor(xyxy).view(1, 4)) \/ gn).view(-1).tolist()  # normalized xywh$/;"	v
+xywh2xyxy	utils/general.py	/^def xywh2xyxy(x):$/;"	f
+xywhn2xyxy	utils/general.py	/^def xywhn2xyxy(x, w=640, h=640, padw=0, padh=0):$/;"	f
+xyxy2xywh	utils/general.py	/^def xyxy2xywh(x):$/;"	f
+xyxy2xywhn	utils/general.py	/^def xyxy2xywhn(x, w=640, h=640, clip=False, eps=0.0):$/;"	f
+y	export.py	/^        y = model(im)  # dry runs$/;"	v
+yolov5l	hubconf.py	/^def yolov5l(pretrained=True, channels=3, classes=80, autoshape=True, _verbose=True, device=None):$/;"	f
+yolov5l6	hubconf.py	/^def yolov5l6(pretrained=True, channels=3, classes=80, autoshape=True, _verbose=True, device=None):$/;"	f
+yolov5m	hubconf.py	/^def yolov5m(pretrained=True, channels=3, classes=80, autoshape=True, _verbose=True, device=None):$/;"	f
+yolov5m6	hubconf.py	/^def yolov5m6(pretrained=True, channels=3, classes=80, autoshape=True, _verbose=True, device=None):$/;"	f
+yolov5n	hubconf.py	/^def yolov5n(pretrained=True, channels=3, classes=80, autoshape=True, _verbose=True, device=None):$/;"	f
+yolov5n6	hubconf.py	/^def yolov5n6(pretrained=True, channels=3, classes=80, autoshape=True, _verbose=True, device=None):$/;"	f
+yolov5s	hubconf.py	/^def yolov5s(pretrained=True, channels=3, classes=80, autoshape=True, _verbose=True, device=None):$/;"	f
+yolov5s6	hubconf.py	/^def yolov5s6(pretrained=True, channels=3, classes=80, autoshape=True, _verbose=True, device=None):$/;"	f
+yolov5x	hubconf.py	/^def yolov5x(pretrained=True, channels=3, classes=80, autoshape=True, _verbose=True, device=None):$/;"	f
+yolov5x6	hubconf.py	/^def yolov5x6(pretrained=True, channels=3, classes=80, autoshape=True, _verbose=True, device=None):$/;"	f
