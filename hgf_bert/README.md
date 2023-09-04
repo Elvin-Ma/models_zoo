@@ -39,3 +39,17 @@ vocab.txt
 [transformer github](https://github.com/huggingface/transformers/tree/main)<br>
 [huggingface](https://huggingface.co/)<br>
 [simple start](https://huggingface.co/bert-base-uncased)<br>
+
+# requrements.txt
+```python
+joblib==1.1.0
+PyYAML==6.0
+regex==2022.9.13
+sacremoses==0.0.53
+semantic-version==2.10.0
+setuptools-rust==1.1.2
+setuptools==59.5.0
+tokenizers==0.12.1
+tqdm==4.62.0
+```
+
