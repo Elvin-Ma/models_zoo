@@ -8,7 +8,7 @@
 - numpy: numpy==1.22.0
 
 # step2: install apex
-1. git clone https://github.com/NVIDIA/apex
+1. git clone https://github.com/NVIDIA/apex.git
 2. cd apex
 3. git checkout 22.03
 4. update setup.py:
