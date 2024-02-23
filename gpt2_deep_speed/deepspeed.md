@@ -1,9 +1,7 @@
 # 复现步骤
 
 ## step1：基础环境安装
-- gcc:7.5.0 和 g++：11.4.0 --》 安装指令
-sudo apt install build-essential
-
+- gcc:7.5.0 和 g++：11.4.0 安装指令：sudo apt install build-essential
 - python==3.8.17
 - setuptools==59.5.0 (必须)
 - numpy: numpy==1.22.0
