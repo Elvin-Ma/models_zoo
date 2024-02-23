@@ -75,6 +75,13 @@ index da76b5e..d2a390c 100644
 - wget https://s3.amazonaws.com/models.huggingface.co/bert/gpt2-merges.txt -O data/gpt2-merges.txt
 - python -c 'from datasets import load_dataset; ds = load_dataset("stas/oscar-en-10k", split="train", keep_in_memory=False); ds.to_json(f"data/oscar-en-10k.jsonl", orient="records", lines=True, force_ascii=False)'
 
+4. 最终data文件夹的数据：
+- gpt2-merges.txt
+- gpt2-vocab.json
+- meg-gpt2-oscar-en-10k_text_document.bin
+- meg-gpt2-oscar-en-10k_text_document.idx
+- oscar-en-10k.jsonl
+
 ## step5: data process
 ```python
 python tools/preprocess_data.py \
