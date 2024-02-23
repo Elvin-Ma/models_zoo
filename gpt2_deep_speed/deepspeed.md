@@ -1,11 +1,19 @@
 # 复现步骤
 
 ## step1：基础环境安装
-- cuda: cuda-11.3
-[安装链接](https://developer.nvidia.com/cuda-toolkit-archive)
+- gcc:7.5.0 和 g++：11.4.0 --》 安装指令
+sudo apt install build-essential
 
-- torch: torch==1.10.1 torchaudio==0.10.1 torchvision==0.11.2
+- python==3.8.17
+- setuptools==59.5.0 (必须)
 - numpy: numpy==1.22.0
+- deepspeed: 0.8.0+bf6b9802
+- transformers: 4.30.2
+- cuda: cuda-11.3
+[cuda安装链接](https://developer.nvidia.com/cuda-toolkit-archive)
+
+- torch 安装:
+conda install pytorch==1.10.1 torchvision==0.11.2 torchaudio==0.10.1 cudatoolkit=11.3 -c pytorch -c conda-forge
 
 # step2: install apex
 1. git clone https://github.com/NVIDIA/apex.git
@@ -31,7 +39,7 @@ index d76e998..f224dae 100644
 6. cd -
 
 ## step3: install Megatron-DeepSpeed
-1. git clone https://github.com/bigscience-workshop/Megatron-DeepSpeed
+1. git clone https://github.com/bigscience-workshop/Megatron-DeepSpeed.git  (不怎么更新了，最新的就行，或者用：e52bdabbde3c6895aceb76c1bced295c2646121f)
 2. cd Megatron-DeepSpeed
 3. fix requirements.txt
 ```python
